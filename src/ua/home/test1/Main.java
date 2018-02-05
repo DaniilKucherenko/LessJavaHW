@@ -8,14 +8,14 @@ public class Main {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Введите число a");
 		System.out.println();
-		int a=sc.nextInt();
+		double a=sc.nextInt();
 		
-		int b =a;
+		double b =a;
 		
-		if(a%b==0||a%1==0) {
+		if(a%b==0&&a%1==0) {
 			System.out.println("Число a простое");
 			
-			
+		
 		}else {
 			System.out.println("Число a сложенное");
 		}
