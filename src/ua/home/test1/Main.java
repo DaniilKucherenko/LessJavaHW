@@ -8,18 +8,23 @@ public class Main {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Введите число a");
 		System.out.println();
-		double a=sc.nextInt();
 		
-		double b =a;
+
 		
-		if(a%b==0&&a%1==0) {
-			System.out.println("Число a простое");
+		int a=sc.nextInt();
+
+		
+	for(int i=2; i<=Math.sqrt(a); i++) {
+		
+		if(a%i==0) {
+			System.out.println("Число  простое");
 			
 		
 		}else {
-			System.out.println("Число a сложенное");
+			System.out.println("Число  сложенное");
 		}
 
 	}
 
+}
 }
