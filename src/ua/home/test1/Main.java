@@ -8,7 +8,6 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Введите число a");
 		System.out.println();
-
 		int a = sc.nextInt();
 
 		for (int i = 2; i < a; i++) {

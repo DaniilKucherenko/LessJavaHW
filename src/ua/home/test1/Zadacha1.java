@@ -10,7 +10,6 @@ public class Zadacha1 {
 		System.out.println("Введите число a");
 		int a = sc1.nextInt();
 		System.out.println("Введите число b");
-		System.out.println();
 		int b =sc1.nextInt();
 	    int c =a*b;
 	    for (int i = 2; i < c; i++) {
